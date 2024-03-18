@@ -1,6 +1,6 @@
 #!/bash
 
-SERIAL="/dev/cu.usbmodem83201"
+SERIAL="/dev/cu.usbmodem83101"
 
 
 
@@ -13,3 +13,4 @@ meshtastic --port ${SERIAL} --set lora.override_duty_cycle true
 meshtastic --port ${SERIAL} --set lora.sx126x_rx_boosted_gain True
 meshtastic --port ${SERIAL} --set lora.tx_power 0
 meshtastic --port ${SERIAL} --set lora.tx_enabled true
+meshtastic --port ${SERIAL} --set lora.modem_preset LONG_FAST
