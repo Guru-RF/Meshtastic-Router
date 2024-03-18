@@ -14,4 +14,3 @@ meshtastic --port ${SERIAL} --set lora.sx126x_rx_boosted_gain True
 meshtastic --port ${SERIAL} --set lora.tx_power 0
 meshtastic --port ${SERIAL} --set lora.tx_enabled true
 meshtastic --port ${SERIAL} --set power.is_power_saving false
-meshtastic --port /dev/cu.usbmodem83101  --ch-set name "SvxLink" --ch-set psk default --ch-index 4
