@@ -13,4 +13,3 @@ meshtastic --port ${SERIAL} --set lora.override_duty_cycle true
 meshtastic --port ${SERIAL} --set lora.sx126x_rx_boosted_gain True
 meshtastic --port ${SERIAL} --set lora.tx_power 0
 meshtastic --port ${SERIAL} --set lora.tx_enabled true
-meshtastic --port ${SERIAL} --set power.is_power_saving false
